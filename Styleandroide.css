@@ -1,0 +1,113 @@
+@charset "UTF8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+} 
+
+
+:root{
+    --cor0: #c5ebd6;
+    --cor1: #83e1ad;
+    --cor2: #3ddc84;
+    --cor3: #2fa866;
+    --cor4: #1a5c37;
+    --cor5: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', Arial;
+    --fonte-android: 'Andriod', Arial;
+}
+
+body{
+    background-color: var(--cor0);
+    font-family: var(--fonte-padrao);
+}
+
+header > h1{ 
+    color: var(--cor3);
+    font-family: var(--fonte-destaque);
+}
+
+main h1{
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+}
+
+
+/*header{
+    background-image: linear-gradient(to top , #294d20, #289a28, #6af07c);
+    font-family: 'Courier New';
+    font-size: 15PX;
+    color: #ffffff;
+    padding: 3px 0px;
+}
+
+h1#main{
+text-align: center;
+}
+
+p#main{
+    text-align: center;
+}
+
+li{
+    text-align: left;
+    display: inline;
+    font-size: large;
+}
+
+li:hover{
+    background-color :#6af07c;
+}
+
+ul{
+    margin: 2px 10px;
+    padding: 0px;
+}
+
+h1{
+    text-align: left;
+}
+
+main{
+   font-family: Arial, Helvetica, sans-serif; 
+   display: flex;
+   background-color: rgb(249, 248, 248);
+   margin-left: 10%;
+   margin-right: 10%;
+   display: block;
+   padding: 5px;
+   box-shadow: 2px 2px rgba(0, 0, 0, 0.225);
+}
+
+h1#noticias{
+    font-family: 'Androide';
+    font-size: 25px;
+    color: #486840;  
+}
+
+h2.subtitle{
+    font-family: 'Androide';
+    font-size: 20px;
+    background-image: linear-gradient(to right, #87d187, #c3e6c322);
+}
+
+div#versoes{
+    background-color: #9fcfc5;
+    padding: 2px 2px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+h2#sabermais{
+    background-color: #2cf178c2;
+    margin: 0% 0%;
+    border-radius: 3px 3px 0px 0px;
+    padding: 2px 2px;
+}*/
+
+
+
